@@ -21,7 +21,7 @@ The primary goals of this project were to:
 ---
 
 ## Dataset
-**Source:** [NBA Draft Basketball Player Data 1989-2021 — MattOp, Kaggle](https://www.kaggle.com/datasets/mattop/nba-draft-basketball-player-data-19892021/data)
+- **Source:** [NBA Draft Basketball Player Data 1989-2021 — MattOp, Kaggle](https://www.kaggle.com/datasets/mattop/nba-draft-basketball-player-data-19892021/data)
 - **Observations:** NBA draft picks with career outcome metrics  
 - **Features:** Draft position, draft team, conference, college background, years active, and productivity indicators (BPM, VORP, Win Shares, etc.)
 
@@ -91,6 +91,7 @@ To reproduce the analysis:
    git clone https://github.com/tomassantos484/nba-draft-career-longevity.git
 
 2. Open the project in RStudio or desired IDE
+
 3. Install and load required packages
    ```r
    source("src/analysis.R")
